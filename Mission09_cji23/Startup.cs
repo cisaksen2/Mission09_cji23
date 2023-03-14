@@ -35,6 +35,8 @@ namespace Mission09_cji23
 
             services.AddScoped<IBookstoreRepository, EFBookstoreRepository>();
 
+            services.AddScoped<IPurchaseRepository, EFPurchaseRepository>();
+
             services.AddRazorPages();
 
             services.AddDistributedMemoryCache();
